@@ -1,0 +1,68 @@
+/* Enhanced styles for stock container */
+.stock-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #2c3e50; /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+    color: white; /* Ensure text is visible */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title style */
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ecf0f1; /* Light color for contrast */
+    margin-bottom: 20px;
+}
+
+/* Stock list styling */
+.stock-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual stock item */
+.stock-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #34495e; /* Slightly lighter shade for contrast */
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on stock item */
+.stock-item:hover {
+    background-color: #1abc9c; /* Teal color on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Stock symbol and price styling */
+.stock-symbol {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ecf0f1; /* Light color for better visibility */
+}
+
+.stock-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c; /* Bright red to highlight stock price */
+}
+
+/* Toastify styling */
+.Toastify__toast {
+    background-color: #1abc9c !important; /* Green background for toasts */
+    color: white !important; /* White text for better visibility */
+}
+
+.Toastify__close-button {
+    color: white !important; /* Ensure close button is visible */
+}

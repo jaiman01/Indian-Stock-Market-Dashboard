@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Stock Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stock-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stock-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-symbol {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.stock-price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.stock-price.up {
+    color: #4caf50; /* Green for price increase */
+}
+
+.stock-price.down {
+    color: #f44336; /* Red for price decrease */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stock-item {
+        width: 100%;
+    }
+}
